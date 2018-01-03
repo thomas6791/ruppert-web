@@ -1,3 +1,20 @@
-.contact-form {
+.formulaire {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    margin-bottom: 15px;
+    border-radius: 2px;
+  }
+  textarea {
+    border-radius: 2px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .btn.btn-primary {
+    border-radius: 2px;
+    margin-top: 8px;
+  }
 }
